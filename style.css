@@ -1,0 +1,445 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+    color: #333;
+    padding-bottom: 5px;
+}
+
+
+/* Header Section */
+header {
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+}
+header {
+    background-image: url('header_background.jpg');
+    
+    background-size:100% 270px;
+    background-position-x: center;
+}
+
+header .header-content h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+header .header-content h2 {
+    color: #ffaf00; /* Assistant Professor title color */
+    font-size: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* Flag Container */
+.flag-container {
+    position: absolute;
+    top: 20px; /* Adjust this value to control vertical positioning */
+    left: 20px; /* Adjust this value to control horizontal positioning */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between elements */
+    z-index: 100; /* Ensures it appears above other content */
+}
+
+/* Flag Image Styling */
+.flag {
+    width: 60px; /* Adjust flag width */
+    height: 40px; /* Adjust flag height */
+}
+
+/* Separator Line */
+.separator {
+    width: 2px; /* Thickness of the green line */
+    height: 40px; /* Height to match the flag */
+    background-color: green; /* Color of the separator */
+}
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: 1px;
+    top: 255px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    border: solid #008080;
+   padding: 0px;
+   width: 145px;
+   height: 145px;
+   text-decoration: none;
+   
+ 
+
+   
+}
+
+.sidebar ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar ul li :hover  {
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+
+.sidebar ul li a:hover {
+    text-decoration: none !important;
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray background */
+    color: #333;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+.sidebar ul li a {
+    text-decoration: none; /* Remove underline by default */
+    color: black; /* Customize text color */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+
+.sidebar a {
+
+text-decoration: none;
+
+}
+
+/* Main Content */
+main {
+    margin-left: 238px;
+    padding: 60px;
+    border: dashed blue;
+    margin-top: -30px;
+
+
+}
+main h3 {
+   text-align: center;
+}
+
+/* Section Titles */
+main h2, aside h2, .contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+/* About Section */
+.about-section {
+    background-color: rgba(236, 176, 176);
+    padding: 20px;
+    margin-bottom: 20px;
+   width: 1000px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   transition: box-shadow 0.1s ease; /* Smooth transition */
+
+}
+.about-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+}
+
+/* Education Section */
+.education-section {
+    background-color: rgba(182, 237, 174);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.education-section ul {
+    list-style: none;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Experience Section */
+.experience-section {
+    background-color: rgba(224, 228, 87);
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.skills-section {
+    background-color:rgba(167, 146, 202);
+  width: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.skills-section img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    transition: transform 0.3s; /* Optional hover effect */
+}
+
+.hobbies-section {
+    background-color:rgba(184, 131, 129);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+.both{
+
+
+}
+
+/* Quick ID Section */
+.quick-id {
+    position: absolute;
+    right: 10px;
+    top: 255px;
+    background-color:RGB(0, 71, 150);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+}
+
+.quick-id p {
+    margin-bottom: 10px;
+    font-family: garamond;
+    font-size: 16px;
+}
+.quick-id h2{
+
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: garamond, ;
+    font-size: 16px;
+}
+
+
+/* Contact Form */
+/* Contact Section */
+/* Contact Section Styling */
+/* Contact Section Styling */
+/* Contact Section Styling */
+/* Contact Section Styling */
+.contact-section {
+    background-color: #b3e5fc;
+    border-radius: 15px;
+    padding: 2px;
+    max-width: 250px; /* Adjusted width */
+   position: absolute;
+   top: 470px;
+   right: 10px;
+   margin: 0 auto;
+   text-align: center;
+padding-bottom: 25px;
+
+
+}
+
+.contact-section h2 {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for Rows with Two Fields */
+.form-row {
+    display: flex;
+    gap: 10px; /* Space between the two fields */
+    margin-bottom: 1px; /* Space below each row */
+    
+}
+
+.form-group {
+    flex: 1; /* Each form group will take equal space in the row */
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+/* Styling for Labels and Inputs */
+.form-group label {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section input[type="tel"],
+.contact-section input[type="date"],
+.contact-section input[type="time"],
+.contact-section textarea {
+    padding: 0px;
+    font-size: 12px;
+    border: 1px solid #999;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-section textarea {
+    resize: vertical;
+    min-height: 30px;
+}
+
+/* Time Input with Icon */
+.time-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.time-input-container input[type="time"] {
+    width: 100%;
+    padding-right: 30px; /* Space for the icon */
+}
+
+.time-input-container .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    pointer-events: none;
+}
+
+/* Button Styling */
+.contact-section button {
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #999;
+    padding: 1px 3px;
+    width: 65px;
+    height: 18px;
+    font-size: 1em;
+    margin-top: 3px;
+    position: absolute;
+    left: 90px;
+   
+   
+
+}
+
+.contact-section button:hover {
+    background-color: #ccc;
+}
+
+
+
+.sidebar ul li img,
+.sidebar ul li i  {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    color: #333;
+}
+/* Footer Styling */
+.footer {
+    background-color: #000; /* Black background */
+    color: red; /* Red text color */
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+    margin-top: 0px;
+    font-size: 0.9em;
+    
+}
+
+.footer p {
+    margin: 1px 0;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 15px 15px; /* Rounded top corners */
+}
+.main-section {
+
+    
+  margin: 20px;
+   padding-left: 150px;
+ 
+}
+.profile-wrapper {
+    position: relative;
+    top: -60px; /* Adjust this value to vertically center the image within the dashed border */
+    z-index: 1; /* Ensures it sits above the border and content */
+    left: 900px;
+}
+.profile-picture {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%;
+    border: 1px solid blue; /* Optional: white border around the picture */
+}
+.container {
+    
+    display: flex;
+    margin: 20px auto; /* Centers the container itself */
+ 
+}
+#cadre{
+margin-left: -360px;
+
+}
+/* CSS to Position Image in Top-Right Corner */
+.top-right-image {
+    position: absolute; /* or 'fixed' if you want it to stay fixed on scroll */
+    top: 10px; /* Distance from the top of the viewport */
+    right: 10px; /* Distance from the right of the viewport */
+    width: 350px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Ensure it appears above the background */
+}
+
+/* Optional: Make sure the header or body has a relative position to contain the image */
+header {
+    position: relative;
+}
+.left-side{
+border: solid green;
+}
+.fading-text {
+    font-family: Arial;
+    font-size: 25px;
+    animation: fade 2s ease-in-out infinite;
+}
+
+/* Fading animation */
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+#both{
+    border: 2px solid green;
+}
+
+
+
+
